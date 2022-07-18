@@ -1,0 +1,78 @@
+.head{
+  text-align: center;
+  position: relative;
+}
+  header{
+  font-weight: 900;
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subhead{
+  text-transform: uppercase;
+  border-bottom:2px solid #2f2f2f;
+  border-top:2px solid #2f2f2f;
+  padding:12px 0 12px 0;
+}
+
+.collumn .headline{
+  text-align: center;
+  line-height: normal;
+  font-family: 'Playfair Display', serif;
+  display: block;
+  margin: 0 auto;
+
+
+
+}
+
+.collumn .headline.h1{
+  font-weight: 400;
+      font-family: 'Playfair Display', serif;
+font-style:italic;
+  font-size: 36px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h2{
+  font-weight: 700;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+.collumn .headline.h2:before{
+border-top: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+}
+.collumn .headline.h2:after{
+  border-bottom: 1px solid #2f2f2f;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.collumn{
+  font-size: 14px;
+  line-height: 20px;
+   width: 47%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all .7s;
+}
+ .collumn .headline.h3{
+  font-weight: 400;
+  font-style: bold;
+  font-size: 36px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
